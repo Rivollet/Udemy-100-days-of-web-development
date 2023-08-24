@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: rgb(241, 234, 255);
+}
+
+h1 {
+  color: rgb(83, 51, 185);
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+main {
+  background-color: rgb(113, 77, 208);
+  border-radius: 8px;
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  padding: 24px 18px;
+  width: 600px;
+  margin: 50px auto 15px auto;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+footer p {
+  font-size: 12px;
+  color: rgb(118, 117, 117);
+}
+
+a {
+  background-color: rgb(253, 241, 186);
+  padding: 2px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: rgb(49, 23, 135);
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.highlighted_item {
+  color: rgb(251, 237, 187);
+  border-left: 5px solid rgb(231, 190, 54);
+  padding-left: 10px;
+}
+
+#html-css-logo {
+  height: 120px;
+}
+
+#pdf-summary-link {
+  display: inline-block;
+  background-color: rgb(242, 203, 78);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+#pdf-summary-link:hover,
+#pdf-summary-link:active {
+  background-color: rgb(231, 190, 54);
+  text-decoration: none;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
